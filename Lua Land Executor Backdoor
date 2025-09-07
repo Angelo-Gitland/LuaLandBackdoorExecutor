@@ -177,42 +177,33 @@ clear.MouseButton1Click:Connect(function()
 	textbox.Text = ""
 end)
 
+-- ✅ Fixed scripts section
 local scriptNames = {
 	"All Seeing Hand",
 	"K00pgui V9",
 	"Polaria",
-	"Kidnap Gui",
-  "SonicElijahMania Gui",
-  "Happy Hub SS",
-  "Dryq74 Gui",
-  "Project Shiba",
-  "Ipadkidd Gui Reborn",
-  "Protokidd Gui",
-  "Flying Spaceship",
-	"Test Script",
+	"SonicElijahMania Gui",
+	"Happy Hub SS",
+	"Dryq74 Gui",
+	"Project Shiba",
+	"Ipadkidd Gui Reborn",
+	"Protokidd Gui",
+	"Flying Spaceship",
 }
 
 local scriptCodes = {
 	('require(5375399205).Player("%s")'):format(localUser),
 	('require(17145849501).v9("%s")'):format(localUser),
 	('require(123255432303221):Pload("%s")'):format(localUser),
-
-('require(10973009971).sonic("%s")'):format(localUser),
-
-('require(78790302691160):Hload("%s")'):format(localUser),
+	('require(10973009971).sonic("%s")'):format(localUser),
+	('require(78790302691160):Hload("%s")'):format(localUser),      
 
 ('require(134839673375508).Dryq74gui("%s")'):format(localUser),
- ('require(92709411293895):shiba("%s")'):format(localUser),
-
-('require(110476458714336).ipadgui("%s")'):format(localUser),
-
-('require(95513395921670).protokidd("%s")'):format(localUser),
-
-('require(4922372692).load("%s")'):format(localUser),
-
-('require(5686002742):Fire("%s")'):format(localUser),","caducus")
-	('require(4901387632).clown("%s")'):format(localUser),
-	"print('Test Script Running!')",
+	('require(92709411293895):shiba("%s")'):format(localUser),
+	('require(110476458714336).ipadgui("%s")'):format(localUser),
+	('require(95513395921670).protokidd("%s")'):format(localUser),
+	('require(4922372692).load("%s")'):format(localUser),
+	('require(5686002742):Fire("%s")'):format(localUser),
 }
 
 for i = 1, #scriptNames do
